@@ -1,0 +1,20 @@
+﻿body {
+    font-family: 'Segoe UI';
+}
+
+.hello-world {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    height: 200px;
+    border: 1px solid #cccccc;
+
+    .hello-world-child {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
